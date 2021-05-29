@@ -1,11 +1,11 @@
 ### Big Data Analysis
 
-#  2021.06.07 ~ 11 (5 Days)
+  2021.06.07 ~ 11 (5 Days)
 
-  Features Selection
+- Features Selection
 
-  Algorithms
+- Algorithms
 
-  Statistics
+- Statistics
 
 ### by Joon Soo Jeong
