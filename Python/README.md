@@ -2,9 +2,9 @@
 
 ### 2021. 06. 01 ~ 02 (2 Days)
 
-  Conda envirnments
+- Conda envirnments
   
-  Numpy, Pandas
+- Numpy, Pandas
   
   
 ### by Joon Soo Jeong
