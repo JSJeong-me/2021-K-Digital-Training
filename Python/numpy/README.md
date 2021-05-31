@@ -1,4 +1,4 @@
 
 - Array
 - Axis
-- Math function
+- Math functions
