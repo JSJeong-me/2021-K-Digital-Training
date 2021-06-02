@@ -8,13 +8,13 @@ conda activate {name}
 
 conda install -c conda-forge opencv matplotlib jupyterlab scikit-image seaborn git
 
-    1	conda deactivate base
-    2	conda create --name kosa python=3.7.6
-    3	conda activate kosa 
+    1	conda deactivate multi
+    2	conda create --name multi python=3.7.6
+    3	conda activate multi 
     4	pip install ipykernel
-    5	python -m ipykernel install --user --name kosa --display-name "Python KOSA"
+    5	python -m ipykernel install --user --name multi --display-name "Python Multi"
     6	conda install -c conda-forge jupyterlab
-    7 conda env create -n project1 -f env_project1.yaml
+    7 #conda env create -n multi -f env_project1.yaml
       
     #
     # To activate this environment, u
