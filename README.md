@@ -13,4 +13,8 @@
   4. 웹 데이터 수집 및 다이나믹 시각화
   5. 공공 데이터 분석, 시각화 및 발표(Project 수행을 통한 Portfolio 작성)
 
+
+![Cognitive](https://user-images.githubusercontent.com/54794815/120935624-ac723e00-c73e-11eb-8587-a84653756c70.jpg)
+
+
 ### By Joon Soo Jeong
