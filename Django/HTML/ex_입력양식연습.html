@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>입력양식태그</title>
+</head>
+<body>
+    <form method="post" action="/newMember">
+        label 태그 사용하지 않음<p>
+        성명<input type="text" id="name" size="10" name="이름" autofocus><br>
+        <input type="text" id="prdNo" hidden>
+        <hr>
+        label  태그 사용하지 않고 출력 <br>
+        <input type="text" name="id" size="10" placeholder="아이디"><br>
+    </p>
+    <hr>
+    label 태그 사용<br>
+        <label id="lab">성명</label>
+        <input type="text" id="name2" size="10"><br>
+        <label>아이디 <input type="text" id="id" maxlength="8"></label><br>
+        <lable>우편번호 <input type="text" id="zipcode" value="100-100" readonly></lable><br>
+        <label>주소 <input type="text" id="address" required></label>
+        <hr>
+        <label>비밀번호 <input type="password" id="password" size="10"></label><br><br>
+
+        학년 :
+        <label><input type="radio" name="year" value="1">1학년</label>
+        <label><input type="radio" name="year" value="2">2학년</label>
+        <label><input type="radio" name="year" value="3">3학년</label>
+        <label><input type="radio" name="year" value="4">4학년</label> <br> <br>
+
+        취미 :
+        <label><input type="checkbox" id="game" value="게임">게임</label>
+        <label><input type="checkbox" id="movie" value="영화">영화</label>
+        <label><input type="checkbox" id="reading" value="독서">독서</label>
+        <label><input type="checkbox" id="sports" value="운동">운동</label><br><br>
+
+        첨부파일선택 : <input type="file" size="30"><br><br>
+        <input type="button" value="아이디중복확인" style="width:120;height:30"><br><br>
+        <input type="image" id="orderImg" src="image/cart.jpg"><br><br>
+        <label>이메일 <input type="email"><br><br></label>
+
+        여행하고 싶은 나라
+        <select name="nation">
+            <option value="미국">미국</option>
+            <option value="중국">중국</option>
+            <option value="호주" selected>호주</option>
+            <option value="일본">일본</option>
+            <option value="기타">기타</option>
+        </select> <br><br>
+
+        자기소개 <br>
+        <textarea row="10" cols="50"name="content">
+
+        </textarea><br><br>
+        <input type="submit" value="회원가입"><input type="reset" value="취소">
+    </form>
+
+</body>
+</html>

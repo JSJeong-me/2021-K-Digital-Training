@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table 태그</title>
+    <style>
+        td {width:100px}
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>테이블 1</caption>
+        <thead align="center">
+            <tr><th>a</th><th>b</th><th>c</th><th>d</th></tr>
+            <tr><td rowspan="3">a1</td><td>b1</td><td>c1</td><td>d1</td></tr>
+            <tr><td>b2</td><td>c2</td><td>d2</td></tr>
+            <tr><td>b3</td><td>c3</td><td>d3</td></tr>
+            <tr><td colspan="4">a4</td></tr>
+        </thead>
+    </table>
+    <br><br>
+    <table border="1">
+        <caption>테이블 2</caption>
+        <thead align="center">
+            <tr><th>a</th><th>b</th><th>c</th><th>d</th></tr>
+            <tr><td rowspan="4">a1</td><td colspan="3">b1</td></tr>
+            <tr><td>b2</td><td>c2</td><td>d2</td></tr>
+            <tr><td rowspan="2">b3</td><td>c3</td><td rowspan="2">d3</td></tr>
+            <tr><td>c4</td></tr>
+        </thead>
+    </table>
+
+</body>
+</html>
