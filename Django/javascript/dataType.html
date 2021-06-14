@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dataType</title>
+    <script type="text/javascript">
+        var num1=15; //정수
+        var num2=123.45; //실수
+        var answer='y'; //문자
+        var name="홍길동"; // 문자열
+        var address='서울시 종로구 1번지'; //문자열
+        var result=true; //논리값
+        var nothing;
+
+        //[취소]  버튼 누르면  null 값 반환
+        var input=prompt('자료형예제','취소버튼을 누르세요');
+
+        //1. 숫자연산
+        document.write("<br>정수 * 실수:"+(num1*num2));
+        //2.형변환
+        document.write("<br>실수를 정수로 형변환:"+ parseInt(num2));
+        //3.형변환 (문자열로)
+        document.write("<br>문자열로 변환:"+ String(num1) + num2.toString());
+        //4.문자열 * 문자열 : NaN
+        document.write("<br>문자 * 문자열:"+(name*address));
+        //5. nothing
+        // 변수 선언 후 값을 저장하지 않았기 때문에 값의 유형을 알 수 없음 - undefined
+        document.write("<br>nothing:"+ nothing);
+        //6. prompt 대화상자에서 취소 버튼를 누를 경우
+        // null 참조객체 없음: 값이 없을 때
+        document.write("<br>input:"+input);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
