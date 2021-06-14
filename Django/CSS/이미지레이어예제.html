@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지레이어</title>
+    <style type="text/css">
+        #outbox{
+            margin:0 auto; /*0 0 auto auto-reft,right를 반으로 양분-가운데정렬:position이 relative여야 함*/
+            width:1020px;
+            position:relative; /*부모박스*/
+            /*border:solid 3px #000;*/
+        }
+        #box1{
+            position:absolute;
+            left:25px;
+            top:181px;
+            z-index:1;
+            }
+        #box2{
+            position:absolute;
+            left:187px;
+            top:155px;
+            z-index:2;
+            }
+        #box3{
+            position:absolute;
+            left:369px;
+            top:129px;
+            z-index:5;
+            }
+        #box4{
+            position:absolute;
+            left:603px;
+            top:155px;
+            z-index:4;
+            }
+        #box5{
+            position:absolute;
+            left:795px;
+            top:181px;
+            z-index:3;
+            }
+    </style>
+</head>
+<body>
+    <div id="outbox">
+        <div id="box1"><img src="image/img1.png"></div>
+        <div id="box2"><img src="image/img2.png"></div>
+        <div id="box3"><img src="image/img3.png"></div>
+        <div id="box4"><img src="image/img4.png"></div>
+        <div id="box5"><img src="image/img5.png"></div>
+    </div>
+</body>
+</html>

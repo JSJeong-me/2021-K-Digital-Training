@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inlineBlock  예제</title>
+    <style type="text/css">
+    /* display 속성이 생략되면 block 이 디폴트 행으로 배치/여백 있음 */
+        .greenBox {
+            /*display:block;*/
+            /*display:inline;*//*display속성 값이 inline인경우 width, height 속성은 적용되지 않는다. 옆으로 배치되면서 내용만큼만 공간 차지*/
+            /*display:inline-block;*/
+            /*옆으로 배치되는 inline속성과 width,height 속성이 적용되는 block 속성을 결합해 놓은 속성값*/
+            float:left;
+            width:150px;
+            height:75px;
+            margin:10px;
+            border:solid 3px #73AD21
+        }
+    </style>
+</head>
+<body>
+    <h2>display 속성(block/inline/inline-block)</h2>
+    <div class="greenBox">박스 1</div>
+    <div class="greenBox">박스 2</div>
+    <div class="greenBox">박스 3</div>
+    <div class="greenBox">박스 4</div>
+</body>
+</html>

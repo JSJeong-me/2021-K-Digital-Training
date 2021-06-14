@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position 속성</title>
+    <style type="text/css">
+        * {margin:0;} /*문서의 기본 margin 없애기 */
+        body {margin:0;}
+        /* 자식태그의 position 을 부모 태그의 영역으로 한정하고 싶으면 부모태그의 position이 relative 나 absolute 로 지정되어 있어야 함 */
+        /* relative 는 기본위치를 기준으로 움직이게 됨 */
+        /* absolute는 상위 태그를 기준으로 움직이게 됨 */
+        #parent {
+            position:relative;
+            top:0px;
+            left:0px;
+            width:200px;
+            height:300px;
+            border:solid 5px #000000;
+            /*margin:50px 0 0 50px;*/ /* top bottom right left */
+        }
+        #boxA, #boxB, #boxC {
+            width:80px;
+            height:80px;
+        }
+        #boxA {background-color:#ff0000;}
+        #boxB {background-color:#00ff00;}
+        #boxC {background-color:#ffff00;}
+
+        #boxB {
+            /*position:relative;*/
+            position:absolute;
+            top:20px;
+            left:30px;
+            }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="boxA">A</div>
+        <div id="boxB">B</div>
+        <div id="boxC">C</div>
+    </div>
+</body>
+</html>

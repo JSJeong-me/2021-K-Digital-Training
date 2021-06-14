@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nth-child</title>
+    <style type="text/css">
+        #stdTable {
+            margin:0 auto; /* 화면 가운데 정렬 */
+            border-collapse:collapse; /*단일 경계선*/
+        }
+
+        #stdTable th {
+            `color:white;
+            background-color:blue;`
+        }
+        /* 태그.클래스명 으로 접근 가능 */
+        #stdTable th.name {width:100px;}
+
+        #stdTable th.email {width:200px;}
+
+        #stdTable td {height:20px;}
+
+        #stdTable tr:nth-child(2n) td {
+             background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <table id="stdTable" border="1">
+        <tr>
+            <th class="name">이름</th>
+            <th class="email">이메일</th>
+        </tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+    </table>
+</body>
+</html>

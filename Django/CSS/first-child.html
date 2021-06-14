@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first-child</title>
+    <style type="text/css">
+        #content div{  /* content의 모든 자손 div */
+            width:400px;
+            height:50px;
+            border:solid 1px black;
+        }
+        #content div:first-child{ /*content의 첫번재 자손 <div> */
+            background:yellow;
+        }
+        #content div:first-child+div{ /*content의 두번째 자손 <div> */
+            background:green;
+        }
+        #content div:nth-child(3){ /*content의 세번째 자손 <div> */
+            background:gold;
+        }
+        #content div:nth-child(4){ /*content의 네번째 자손 <div> */
+            background:pink;
+        }
+        #content div:nth-child(5){ /*content의 다섯번째 자손 <div> */
+            background:black;
+        } /* div:first-child : 앞뒤로 띄어쓰기 하면 안됨
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

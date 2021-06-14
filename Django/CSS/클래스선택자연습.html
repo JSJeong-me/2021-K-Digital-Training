@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>클래스선택자</title>
+    <style type="text/css">
+        /* 태그의 class 속성의 값은 중복될 수 있다 */
+        div {width:100px;height:30px;border:solid 1px black;}
+        .redbox {background:red;}
+        .bluebox {background:blue;}
+        #box1 {background:yellow}
+        #box2 {background:black}
+    </style>
+</head>
+<body>
+<div class="redbox"></div>
+<div class="bluebox"></div>
+<div class="redbox"></div>
+<div class="bluebox"></div>
+<div id="box1"></div>
+<div id="box2"></div>
+</body>
+</html>
