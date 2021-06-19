@@ -1,6 +1,6 @@
 ### Python
 
-# 2021. 06. 14 ~ 25 (10 Days)
+# 2021. 06. 21 ~ 07. 02 (10 Days)
 
 - HTML/CSS
 - JavaScript/Jquery
