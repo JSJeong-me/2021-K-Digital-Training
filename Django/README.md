@@ -24,5 +24,9 @@
   python -m ipykernel install --user --name django --display-name "Python Django"
 
   conda install -c conda-forge jupyterlab
+  
+### Django Installation
+
+  pip install Django==3.2.4
 
 ### by Joon Soo Jeong
