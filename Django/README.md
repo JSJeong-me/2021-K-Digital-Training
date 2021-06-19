@@ -8,7 +8,8 @@
 - Django(MVC와 CRUD)
 
 
-  Conda env for Django
+
+### Conda env for Django
 
   conda deactivate
 
