@@ -29,7 +29,7 @@
 
   pip install Django==3.2.4
   
-### VS COde installation
+### VS Code installation
 
   https://code.visualstudio.com/
   
