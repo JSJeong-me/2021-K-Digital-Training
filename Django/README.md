@@ -28,5 +28,13 @@
 ### Django Installation
 
   pip install Django==3.2.4
+  
+### VS COde installation
 
-### by Joon Soo Jeong
+  https://code.visualstudio.com/
+  
+  
+  https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+  
+
+### by Joon Soo Jeong / PhD
