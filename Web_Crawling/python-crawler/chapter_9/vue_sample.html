@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <h1>좋아하는 영화 랭킹 Top3</h1>
+    <ol>
+        <li v-for="item in items">
+            <span class="cinema_title">{{ item }}</span>
+        </li>
+    </ol>
+</div>
+<script>
+new Vue({
+   el: '#app',
+   data: {
+      items: [
+         'AKIRA(감독: 오오토모 카츠히로)',
+         '2001: 스페이스 오디세이(감독: 스탠리 큐브릭)',
+         '아이언맨(감독: 존 패브로)',
+      ]
+   }
+})
+</script>
