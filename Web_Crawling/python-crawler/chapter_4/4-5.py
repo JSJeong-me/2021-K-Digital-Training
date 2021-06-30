@@ -2,10 +2,10 @@ import MySQLdb
 
 # 데이터베이스 연결하기
 connection = MySQLdb.connect(
-    user="scrapingman",
-    passwd="myPassword-1",
+    user="root",
+    passwd="8475",
     host="localhost",
-    db="scrapingdata",
+    db="tip",
     charset="utf8")
 
 # 커서 생성하기

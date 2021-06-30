@@ -1,0 +1,5 @@
+[01;30m[DEBUG]	asctime:2021-06-30 15:13:00	process:5152	thread:15756	module:<ipython-input-3-b6785a667af6>	<ipython-input-3-b6785a667af6>:5	message:DEBUG ∑π∫ß¿‘¥œ¥Ÿ.[0m
+[37m[INFO]	asctime:2021-06-30 15:13:00	process:5152	thread:15756	module:<ipython-input-3-b6785a667af6>	<ipython-input-3-b6785a667af6>:6	message:INFO ∑π∫ß¿‘¥œ¥Ÿ.[0m
+[33m[WARNING]	asctime:2021-06-30 15:13:00	process:5152	thread:15756	module:<ipython-input-3-b6785a667af6>	<ipython-input-3-b6785a667af6>:7	message:WARNING ∑π∫ß¿‘¥œ¥Ÿ.[0m
+[31m[ERROR]	asctime:2021-06-30 15:13:00	process:5152	thread:15756	module:<ipython-input-3-b6785a667af6>	<ipython-input-3-b6785a667af6>:8	message:ERROR ∑π∫ß¿‘¥œ¥Ÿ.[0m
+[01;31m[CRITICAL]	asctime:2021-06-30 15:13:00	process:5152	thread:15756	module:<ipython-input-3-b6785a667af6>	<ipython-input-3-b6785a667af6>:9	message:CRITICAL ∑π∫ß¿‘¥œ¥Ÿ.[0m
